@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Sur
+GenericName=Music Player
+Comment=Listen to music
+Exec=sur %U
+Icon=io.github.rajnish.Sur
+Terminal=false
+StartupNotify=true
+Categories=GTK;GNOME;AudioVideo;Audio;Player;
+Keywords=music;audio;song;track;player;flac;mp3;opus;
+MimeType=audio/aac;audio/flac;audio/mp4;audio/mpeg;audio/ogg;audio/opus;audio/wav;audio/webm;audio/x-aac;audio/x-aiff;audio/x-ape;audio/x-flac;audio/x-m4a;audio/x-matroska;audio/x-mp3;audio/x-mpeg;audio/x-ms-wma;audio/x-opus+ogg;audio/x-vorbis+ogg;audio/x-wav;audio/x-wavpack;

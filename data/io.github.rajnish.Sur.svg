@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <path id="note" d="M52 84 V32 Q52 24 60 22 L96 15 Q104 14 104 22 V74 Q104 92 88 92 Q74 92 74 80 Q74 68 88 68 Q92 68 94 69 V32 L62 38 V84 Q62 104 44 104 Q28 104 28 90 Q28 76 44 76 Q49 76 52 78 Z"/>
+    <clipPath id="note-clip">
+      <use href="#note"/>
+    </clipPath>
+    <linearGradient id="violet" x1="28" y1="16" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#927bff"/>
+      <stop offset="100%" stop-color="#6046e8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="20" y1="64" x2="66" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffd65a"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="28" y1="68" x2="66" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff836b"/>
+      <stop offset="100%" stop-color="#e84f5e"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="44" cy="90" r="24" fill="#c77f0c" transform="translate(0 5)"/>
+  <use href="#note" fill="#432eb8" transform="translate(0 5)"/>
+
+  <circle cx="44" cy="90" r="24" fill="url(#sun)"/>
+  <use href="#note" fill="url(#violet)"/>
+  <circle cx="44" cy="90" r="24" fill="url(#coral)" clip-path="url(#note-clip)"/>
+  <use href="#note" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2" clip-path="url(#note-clip)"/>
+</svg>
